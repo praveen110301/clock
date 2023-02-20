@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div class="togggle">
+        <span class="format">12 hours format</span>
+        <label class="switch">
+            <input type="checkbox" id="check1" onchange="run(this.checked)">
+            <span class="slider round"></span>
+        </label>
+    </div>
+
+    <div class="date">
+        <span id="tareek">00</span>
+        <span>-</span>
+        <span id="mahina">00</span>
+        <span>-</span>
+        <span id="saal">00</span>
+        <span>(</span>
+        <span id="din">00</span>
+        <span>)</span>
+    </div>
+
+    <div class="clock">
+            <!-- <span id="date">00</span> -->
+            <!-- <span class="colon">:</span> -->
+            <span id="hrs">00</span>
+            <span class="colon">:</span>
+            <span id="mins">00</span>
+            <span class="colon">:</span>
+            <span id="secs">00</span>
+            <span id="sess">AM</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
